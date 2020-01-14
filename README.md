@@ -3,6 +3,13 @@
 ## INSTALL
 https://docs.cloudera.com/documentation/enterprise/5-13-x/topics/quickstart_docker_container.html    
 
+##  Docker CDH单点架构
+
+https://xieshaohu.wordpress.com/2019/02/26/15%E5%88%86%E9%92%9F-%E5%9C%A8docker%E5%90%AF%E5%8A%A8cloudera%E5%B9%B6%E5%BC%80%E5%A7%8B%E4%BD%93%E9%AA%8C/    
+
+
+https://www.cnblogs.com/piperck/p/9917118.html
+
 
 ## IMPALA    
 ![ ClouderaIMPALA](https://raw.githubusercontent.com/latermonk/Cloudera/master/_Image/impala-archtecture.jpg)
