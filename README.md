@@ -39,6 +39,19 @@ docker run
 
 ##  正确的启动方法：
 
+```
+先运行命令启动集群
+docker  run  --hostname=quickstart.cloudera --privileged=true -t -i -d --publish-all=true  -p 8888:8888 -p 80:80 -p 7180:7180 -p 21050:21050 -p 50070:50070 -p 50075:50075 -p 50010:50010 -p 50020:50020 -p 8020:8020 5e0f9625ffee /usr/bin/docker-quickstart 
+
+
+
+然后运行manager
+/home/cloudera/cloudera-manager --express 
+
+service ntpd start
+
+```
+
 
 
 
