@@ -31,6 +31,16 @@ docker run
 
 
 
+```
+/home/cloudera/cloudera-manager --express && service ntpd start
+```
+
+
+
+##  正确的启动方法：
+
+
+
 
 https://xieshaohu.wordpress.com/2019/02/26/15%E5%88%86%E9%92%9F-%E5%9C%A8docker%E5%90%AF%E5%8A%A8cloudera%E5%B9%B6%E5%BC%80%E5%A7%8B%E4%BD%93%E9%AA%8C/    
 
