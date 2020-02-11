@@ -70,3 +70,15 @@ https://www.w3cschool.cn/impala/impala_overview.html
 https://blog.csdn.net/weixin_35852328/article/details/83178299    
 
 
+
+
+##   同步为北京时间 sync to beijing time
+```
+1.删除自带的localtime 
+  rm -rf /etc/localtime 
+2.创建软链接到localtime 
+ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+```
+
+
